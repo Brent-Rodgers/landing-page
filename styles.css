@@ -15,6 +15,48 @@
     margin: 8px;
 }
 
+.container-1 {
+    background-color: #1F2937;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+.hero-image {
+    max-width: 600px;
+    padding: 32px;
+    flex: 1;
+}
+
+.container-hero {
+    max-width: 600px;
+    padding: 32px;
+    flex: 1;
+}
+
+.hero-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 16px 0;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 16px 0;
+}
+
+.hero-sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 32px;
+}
+
 li {
     list-style-type: none;
 }
