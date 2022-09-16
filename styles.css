@@ -75,7 +75,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 36px;
-    margin-bottom: 36px;
+    margin-bottom: 32px;
 }
 
 .info-header-text {
@@ -105,6 +105,31 @@
     color: #1F2937;
     font-weight: 900;
     margin: 16px;
+}
+
+.container-4 {
+    background-color: #3882F6;
+    margin: 64px 128px;
+    padding: 32px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.cta-button {
+    flex: none;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 3px solid #F9FAF8;
+    border-radius: 4px;
+    padding: 8px 32px;
 }
 
 li {
