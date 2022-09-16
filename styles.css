@@ -75,6 +75,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 36px;
+    margin-bottom: 36px;
 }
 
 .info-header-text {
@@ -83,6 +84,27 @@
     font-weight: 900;
     text-align: center;
     margin: 32px 0;
+}
+
+.container-3 {
+    padding: 64px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    margin: 32px;
+}
+
+.attribution {
+    text-align: right;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 16px;
 }
 
 li {
