@@ -57,6 +57,34 @@
     padding: 8px 32px;
 }
 
+.img-ref {
+    width: 200px;
+    height: auto;
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+}
+
+.info-item {
+    max-width: 300px;
+    text-align: center;
+}
+
+.info-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+
+.info-header-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 32px 0;
+}
+
 li {
     list-style-type: none;
 }
